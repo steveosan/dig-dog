@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+body{
+  background-color: #c9e3fc;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+h1{
+  margin-top: 25px;
+  text-align: center;
+  font-size: 4vw;
+  font-weight: 900;
+}
+p{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+p#counter{
+  font-size: 3vw;
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  color: #c9e3fc;
+}
+
+
+.box {                    /* fresh grass */
+  width:4vw;
+  height:4vw;
+  border:1px solid #000;
+  display: inline-block;
+  background-color: rgb(64, 128, 64);
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-weight: 900;
+}
+
+.redBox {                    /* Hidden Bone */
+  /* width:4vw;
+  height:4vw;
+  display: inline-block;
+  background-color: red;   */
+}
+
+.dugBox {                    /* dug up some grass*/
+  width:4vw;
+  height:4vw;
+  display: inline-block;
+  background-color: #5a0e0e;
+}
+
+.bone {                    /* dug up a bone*/
+  width:4vw;
+  height:4vw;
+  padding: -10px;
+  display: inline-block;
+  background-color:  #5a0e0e;
+  background-image: url("bone-transparent-background-9.png" );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 4vw;
+}
+
+#won{                 /*won display */
+  padding: 50px;
+  background-color: rgb(19, 173, 148);
+  color: rgb(0, 0, 0);
+  border:1px solid #000;
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: o;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-weight: 900;
+}
+
+
+#lost{                 /*lost display */
+  padding: 50px;
+  background-color: rgb(248, 130, 130);
+  color: white;
+  border:1px solid #000;
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-weight: 900;
+}
+
+
+#dogHouse{                    /* app container */
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  margin-left: 33%;
+  margin-right: 33%;
+  border: solid black 2px;
+  text-align: center;
+  background-color: rgb(74, 118, 161);
+  margin-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-weight: 900;
+}
+
+
+
+/*                  /* Progress bar */
+/*-------------------------------------------------------*/
+#health {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 25px;
+}
+progress { 
+  width: 25vw;
+  height: 4vw;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+progress {
+  color: white;
+}
+
+progress::-webkit-progress-value {
+  background: red;
+}
+
+progress::-moz-progress-bar {
+  background: white;
+}
+
+progress::-webkit-progress-value {
+  background: red;
+  border-radius: 15px;
+}
+
+progress::-webkit-progress-bar {
+  background: white;
+  border-radius: 15px;
+}
+/*                  /* Progress bar */
+/*-------------------------------------------------------*/
+#rageP                 /*ragebar text display */
+{
+  margin-top: -10%;
+  font-size: 2vw;
+  margin-bottom: 5px;
+}
+
